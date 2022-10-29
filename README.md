@@ -154,8 +154,15 @@ EOF  all  create  destroy  help  quit  show  update
 No known bugs at this time. 
 
 ## Authors
-Abdisa Alemu - [GITHUB](https://github.com/abdisa-alex)
+Alexa Orrico - Github / Twitter
+Jennifer Huang - Github / Twitter
+Jhoan Zamora - Github / Twitter
+David Ovalle - Github / Twitter
 
 Second part of Airbnb: Joann Vuong
+
+fourth of the airbnb:
+Abdisa Alemu - [GITHUB](https://github.com/abdisa-alex)
+Leulseged B. Ayalew - [Github](https://github.com/leul1991)
 ## License
 Public Domain. No copy write protection. 
