@@ -9,6 +9,9 @@ $(function () {
         }
         $('.amenities h4').text(Object.keys(amenities).sort().join(', '));
       });
+   $('.filters button').bind('click', searchPlace);
+    searchPlace();
+  
   //status
           $.getJSON('http://0.0.0.0:5001/api/v1/status/', (data) => {
                   if (data.status === 'OK') {
@@ -44,4 +47,5 @@ $(function () {
                   },
                   dataType: 'json'
           });
+         
   });
