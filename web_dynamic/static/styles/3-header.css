@@ -3,14 +3,17 @@ header {
     height: 70px;
     width: 100%;
     border-bottom: 1px solid #CCCCCC;
+    display: flex;
+    align-items: center;
 }
 header .logo {
     background: url("../images/logo.png") no-repeat;
     left: 20px;
     height: 100%;
+    flex: 1;
 }
 header #api_status {
-    align: right;
+    margin-left: auto;
     width: 40px;
     height: 40px;
     margin-right: 30px;
