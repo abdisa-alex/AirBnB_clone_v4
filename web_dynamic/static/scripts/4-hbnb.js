@@ -9,8 +9,6 @@ $(function () {
         }
         $('.amenities h4').text(Object.keys(amenities).sort().join(', '));
       });
-   $('.filters button').bind('click', searchPlace);
-    searchPlace();
   
   //status
           $.getJSON('http://0.0.0.0:5001/api/v1/status/', (data) => {
@@ -20,6 +18,8 @@ $(function () {
                           $('div#api_status').removeClass('available');
                   }
           });
+        $('.filters button').bind('click', searchPlace);
+         searchPlace();
           //fetch
           $.post({
                   url: `${HOST}/api/v1/places_search`,
